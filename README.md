@@ -8,7 +8,7 @@
 <p>The dataset was sourced from <a href="https://insideairbnb.com/">Inside Airbnb</a> and contains detailed information about accommodations in Toronto as of January 8th, 2024.</p>
 
 <h2>Motivation</h2>
-<p>This project aims to leverage expertise in the travel and tourism industry to extract meaningful insights and analyze the implications of the 5-star review system in the digital space.</p>
+<p>This project aims to leverage my previous experience working in the travel and tourism industry to extract meaningful insights from the statistical tests applied on this dataset.</p>
 
 <h2>Techniques Used</h2>
 <ul>
@@ -21,23 +21,12 @@
     <li>Linear regression</li>
 </ul>
 
-<h2>Key Findings</h2>
-<ul>
-    <li><strong>Review Score Variance:</strong> Listings with fewer than 20 reviews showed significant variance in review scores, skewing results. Excluding these listings improved the accuracy of guest satisfaction analysis.</li>
-    <li><strong>Superhost Performance:</strong> Superhosts consistently achieved higher ratings across all categories, highlighting their status as indicators of quality listings.</li>
-    <li><strong>Impact of Superhost Status:</strong> Superhost status significantly influences review scores, particularly in categories like accuracy, cleanliness, and communication.</li>
-    <li><strong>Response Times and Communication Scores:</strong> Faster response times correlate with higher communication scores, underscoring the importance of responsiveness.</li>
-    <li><strong>Neighborhood Influence:</strong> Choice of neighborhood significantly affects Airbnb ratings, emphasizing the role of location in guest satisfaction.</li>
-    <li><strong>Correlations Among Review Categories:</strong> Positive correlations exist among accuracy, cleanliness, communication, value, and overall rating scores, indicating interconnected guest experiences.</li>
-    <li><strong>Challenges in Predictive Modeling:</strong> Linear regression may not accurately predict overall review scores due to complex relationships among review categories.</li>
-</ul>
-
 <h2>Lessons Learned</h2>
 <ul>
-    <li><strong>Challenges with Scalar Data:</strong> 5-star reviews present challenges in statistical analysis due to grade inflation.</li>
-    <li><strong>Excel's Limitations:</strong> Issues with Excel's handling of large numbers were encountered during data import, though they did not impact the analysis.</li>
-    <li><strong>Power Query for Data Cleaning:</strong> Power Query offers robust data cleaning capabilities, enhancing transparency and reproducibility.</li>
-    <li><strong>The Null Hypothesis in Statistical Analysis:</strong> Emphasizing the null hypothesis ensures rigor and reliability in drawing conclusions from data.</li>
+    <li><strong>Challenges with Scalar Data:</strong> 5-star reviews present challenges in statistical analysis due to grade inflation. This can skew the distribution, making traditional statistical methods assuming normality less reliable.</li>
+    <li><strong>Excel's Limitations:</strong> Issues with Excel's handling of large numbers were encountered during data import, though they did not impact the analysis. This occurs because Excel only stores up to 15 significant digits in a number, converting any digits beyond the fifteenth place to zeros.</li>
+    <li><strong>Power Query for Data Cleaning:</strong> If I could change something on my assignment, would be the inclusion of Power Query. Power Query offers a robust way to track changes and steps taken to modify the dataset, providing a transparent and reproducible data cleaning process. </li>
+    <li><strong>The Null Hypothesis in Statistical Analysis:</strong> Focusing on the null hypothesis in statistical analysis is crucial because it ensures rigor and reliability in drawing conclusions from data. It also helps to reduce the amount of bias and guards against premature conclusions.</li>
 </ul>
 
 <h2>Contact Information</h2>
