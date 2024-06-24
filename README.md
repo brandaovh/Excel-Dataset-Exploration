@@ -1,49 +1,48 @@
-# UNDER CONSTRUCTION
+<h1>Welcome</h1>
 
-# Airbnb Listings - Toronto
+<h2>Project Overview</h2>
+<p>This project focuses on analyzing Airbnb listings in Toronto using descriptive and inferential statistical analysis techniques. The analysis was conducted as part of the "Math for Data Analytics" class.</p>
+<p>The dataset used for this analysis is stored in <code>datasetExploration.xlsx</code>. It includes original and cleaned datasets, a data dictionary, pivot tables, graphs, and statistical analysis. Additionally, the final report summarizing the findings can be found in <code>finalReport.docx</code>.</p>
 
-## Project Overview
-This project was conducted as part of the "Math for Data Analytics" class and involved a comprehensive dataset analysis of Airbnb listings in Toronto, focusing on descriptive and inferential statistical analysis using MS Excel.
+<h2>Data Source</h2>
+<p>The dataset was sourced from <a href="https://insideairbnb.com/">Inside Airbnb</a> and contains detailed information about accommodations in Toronto as of January 8th, 2024.</p>
 
-The dataset used for this analysis is stored in the file `datasetExploration.xlsx`. It contains the original and cleaned datasets, data dictionary, pivot tables, graphs and statistical analysis. Additionally, the final report summarizing the analysis findings can be found in the file `finalReport.docx`. Feel free to explore these files.
+<h2>Motivation</h2>
+<p>This project aims to leverage expertise in the travel and tourism industry to extract meaningful insights and analyze the implications of the 5-star review system in the digital space.</p>
 
-## Data Source
-The dataset was obtained as a csv file from [Inside Airbnb](https://insideairbnb.com/) website and includes detailed information about accommodations in Toronto as of January 8th, 2024.
+<h2>Techniques Used</h2>
+<ul>
+    <li>Log normalization</li>
+    <li>Univariate descriptive statistics</li>
+    <li>Risk Ratio/Odds Ratio</li>
+    <li>Chi-Square Test</li>
+    <li>ANOVA</li>
+    <li>Correlation</li>
+    <li>Linear regression</li>
+</ul>
 
-## Motivation
-The goal is to leverage expertise in the travel and tourism industry to extract meaningful insights and analyze the implications of the 5-star review system in the digital space.
+<h2>Key Findings</h2>
+<ul>
+    <li><strong>Review Score Variance:</strong> Listings with fewer than 20 reviews showed significant variance in review scores, skewing results. Excluding these listings improved the accuracy of guest satisfaction analysis.</li>
+    <li><strong>Superhost Performance:</strong> Superhosts consistently achieved higher ratings across all categories, highlighting their status as indicators of quality listings.</li>
+    <li><strong>Impact of Superhost Status:</strong> Superhost status significantly influences review scores, particularly in categories like accuracy, cleanliness, and communication.</li>
+    <li><strong>Response Times and Communication Scores:</strong> Faster response times correlate with higher communication scores, underscoring the importance of responsiveness.</li>
+    <li><strong>Neighborhood Influence:</strong> Choice of neighborhood significantly affects Airbnb ratings, emphasizing the role of location in guest satisfaction.</li>
+    <li><strong>Correlations Among Review Categories:</strong> Positive correlations exist among accuracy, cleanliness, communication, value, and overall rating scores, indicating interconnected guest experiences.</li>
+    <li><strong>Challenges in Predictive Modeling:</strong> Linear regression may not accurately predict overall review scores due to complex relationships among review categories.</li>
+</ul>
 
-## Techniques Used
-- Log normalization
-- Univariate descriptive statistics
-- Risk Ratio/Odds Ratio
-- Chi-Square Test
-- ANOVA
-- Correlation
-- Linear regression
+<h2>Lessons Learned</h2>
+<ul>
+    <li><strong>Challenges with Scalar Data:</strong> 5-star reviews present challenges in statistical analysis due to grade inflation.</li>
+    <li><strong>Excel's Limitations:</strong> Issues with Excel's handling of large numbers were encountered during data import, though they did not impact the analysis.</li>
+    <li><strong>Power Query for Data Cleaning:</strong> Power Query offers robust data cleaning capabilities, enhancing transparency and reproducibility.</li>
+    <li><strong>The Null Hypothesis in Statistical Analysis:</strong> Emphasizing the null hypothesis ensures rigor and reliability in drawing conclusions from data.</li>
+</ul>
 
-## Key Findings
-
-- **Review Score Variance**: Listings with fewer than 20 reviews showed significant variance in review scores, skewing results. Excluding these listings from the analysis improved the score distribution, enhancing the accuracy of guest satisfaction analysis.
-
-- **Superhost Performance**: Superhosts consistently achieved higher ratings across all categories, including overall score, accuracy, cleanliness, and communication. This highlights the value of the Superhost status as an indicator of higher quality listings.
-
-- **Impact of Superhost Status**: The influence of Superhost status on review scores was most pronounced in overall rating, accuracy, cleanliness, and communication. However, weaker effects were observed in check-in, location, and value categories, suggesting that these aspects may be influenced by other factors beyond a host's control.
-
-- **Response Times and Communication Scores**: Hosts with faster response times correlated significantly with higher communication scores. This indicates that responsiveness is a critical factor in guest satisfaction, emphasizing the importance of timely communication.
-
-- **Neighborhood Influence**: Variability between neighborhoods exceeded within-neighborhood variance, suggesting that the choice of neighborhood significantly influences Airbnb ratings. This finding underscores the importance of location in guest satisfaction and listing performance.
-
-- **Correlations Among Review Categories**: Strong positive correlations were found among accuracy, cleanliness, communication, value, and overall rating scores. This suggests that improvements in one area could positively affect perceptions in others, highlighting the interconnected nature of guest experiences.
-
-- **Challenges in Predictive Modeling**: Due to the complex relationships among review categories, a linear regression model may not be suitable for accurately predicting overall review scores. This suggests the need for more sophisticated models to capture the nuances of guest satisfaction.
-
-## Lessons Learned
-
-- **Challenges with Scalar Data**: Performing statistical analysis using scalar data, such as 5-star reviews, due to issues like grade inflation. This can skew the distribution, making traditional statistical methods assuming normality less reliable.
-
-- **Excel's Limitations with Large Numbers**: While importing data, I encountered issues with Excel's handling of large numbers, where some values were converted from numbers to text. This occurs because Excel only stores up to 15 significant digits in a number, converting any digits beyond the fifteenth place to zeros. Fortunately, this limitation did not impact my data analysis, as the affected variable was nominal and could be classified accordingly.
-
-- **The Utility of Power Query for Data Cleaning**: Although not covered in this specific class, later I discovered the benefits of using Power Query for data cleaning. Power Query offers a robust way to track changes and steps taken to modify the dataset, providing a transparent and reproducible data cleaning process. If I could change something on my assignment, would be the inclusion of Power Query.
-
-- **The Importance of the Null Hypothesis in Statistical Analysis**: Focusing on the null hypothesis in statistical analysis is crucial because it ensures rigor and reliability in drawing conclusions from data. It also helps to reduce the amount of bias and guards against premature conclusions.
+<h2>Contact Information</h2>
+<p>Feel free to reach out for questions or further discussion:</p>
+<ul>
+    <li>Email: <a href="mailto:brandaovh@gmail.com">brandaovh@gmail.com</a></li>
+    <li>LinkedIn: <a href="https://www.linkedin.com/in/brandaovh/" target="_blank" rel="noopener noreferrer">linkedin.com/in/brandaovh/</a></li>
+</ul>
